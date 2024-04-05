@@ -1,5 +1,5 @@
-from utils import flaecheRechteck
 
+from utils import flaecheRechteck
 
 def test_flaecheRechteck():
     assert flaecheRechteck(3,4) == 12
