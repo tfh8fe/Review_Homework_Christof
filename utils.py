@@ -1,7 +1,3 @@
-
-def flaecheRechteck (a,b):
-    """ Berechnen des Flächeninhalts mit Länge mal Breite"""
-    
-    return a*b
-
-
+def flaecheRechteck (a, b):
+    """ Berechnen des Flaecheninhalts mit Laenge mal Breite"""
+    return a * b
