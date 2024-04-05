@@ -2,15 +2,15 @@ def widerstand20(laenge, querschnitt, leitwert):
     wider20 = laenge / leitwert / querschnitt
     return wider20
 
-def deltawiderstand(wider20, temperatur, temperaturkoeffizient):
-    deltawider = wider20 * (temperatur-20) * temperaturkoeffizient
+def deltawiderstand(wide20, temperatur, temperaturkoeffizient):
+    deltawider = wide20 * (temperatur-20) * temperaturkoeffizient
     return deltawider
 
-def widerstand(wider20, deltawiderstand):
-    return wider20 + deltawiderstand
+def widerstand(wider20, deltar):
+    return wider20 + deltar
 
-def absspannungsabfall(widerstand, strom):
-    return widerstand * strom
+def absspannungsabfall(widerstan, strom):
+    return widerstan * strom
 
-def relspannungsabfall(spannung,absspannungsabfall):
-    return spannung - absspannungsabfall
+def relspannungsabfall(spannung,abspannungsabfall):
+    return spannung - abspannungsabfall
