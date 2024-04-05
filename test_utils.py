@@ -1,7 +1,5 @@
-from utils import flaecheRechteck
+from utils import widerstand20
 
 
-def test_flächeRechteckBerechenen():
-    assert flaecheRechteck(3, 4) == 7
-    assert flaecheRechteck(10, 10) == 20
-    assert flaecheRechteck(4, 3) == 7
+def test_widerstand20():
+    assert widerstand20(1, 1, 1) == 1 
