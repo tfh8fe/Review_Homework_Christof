@@ -3,7 +3,7 @@ def widerstand20(laenge, querschnitt, leitwert):
     return wider20
 
 def deltawiderstand(wide20, temperatur, temperaturkoeffizient):
-    deltawider = wide20 * (temperatur-20) * temperaturkoeffizient
+    deltawider = wide20 * (temperatur - 20) * temperaturkoeffizient
     return deltawider
 
 def widerstand(wider20, deltar):
