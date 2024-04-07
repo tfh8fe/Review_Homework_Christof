@@ -1,7 +1,7 @@
 # Widerstandsberechnung mit Leiter Temperatur und Bauform
 [![license](https://img.shields.io/badge/license-Apache%202.0-black)](https://github.com/christofelician/coolio/blob/main/LICENSE)
 ##
-main.py ist das Hauptprogramm indem die Widerstände berechnert werden.
+main.py ist das Hauptprogramm indem die Widerstände berechnert werden. Von Christoph Lemberger 1631759
 
 Es wird berechnet:
 
