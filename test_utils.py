@@ -14,6 +14,7 @@ def test_deltawiderstand():
     """Test deltaWiderstand"""
     assert deltawiderstand(1, 0, 1) == 0
 
+
 def test_widerstand():
     """Test Widerstand bei angegebener Temperatur"""
     assert widerstand(1, 1) == 2
