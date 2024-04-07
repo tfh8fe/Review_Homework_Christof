@@ -5,8 +5,4 @@ main.py ist das Hauptprogramm indem die Widerstände berechnert werden.
 
 Es wird berechnet:
 
-Widerstand bei Raumtemperatur
-der Differenz Widerstand bei einer bestimmten Leitertemperatur zum Widerstand bei Raumtemperatur
-der Gesamtwiderstand
-der Resultierende Spannungsabfall am Widerstand der Leitung
-die relative Spannungsänderung
+###Widerstand bei Raumtemperatur, der Differenz Widerstand bei einer bestimmten Leitertemperatur zum Widerstand bei Raumtemperatur, der Gesamtwiderstand, der Resultierende Spannungsabfall am Widerstand der Leitung, die relative Spannungsänderung
