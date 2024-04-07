@@ -12,7 +12,7 @@ def test_widerstand20():
 
 def test_deltawiderstand():
     """Test deltaWiderstand"""
-    assert deltawiderstand(1, 0, 1) == 0
+    assert deltawiderstand(1, 20, 1) == 0
 
 
 def test_widerstand():
