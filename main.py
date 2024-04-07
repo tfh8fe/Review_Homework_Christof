@@ -6,7 +6,7 @@ from utils import relspannungsabfall
 
 
 def main():
-
+    """Hauptprogramm"""
     laenge = float(input("Laenge des Leiters: "))
     querschnitt = float(input("Querschnitt des Leiters in Quadratmillimeter: "))
     leitwert = float(input("Leitwert des Leiters in Millisiemens pro Meter: "))
@@ -36,6 +36,7 @@ def main():
     print("Gesamtwiderstand bei", temperatur, "Grad Celsius:", gesamtwiderstand, "Ohm")
     print("Absoluter Spannungsabfall:", absoluter_spannungsabfall, "Volt")
     print("Relativer Spannungsabfall:", relativer_spannungsabfall)
+
 
 if __name__ == "__main__":
     main()
