@@ -12,19 +12,18 @@ def test_widerstand20():
 
 def test_deltawiderstand():
     """Test deltaWiderstand"""
-    assert deltawiderstand(1, 1, 1) == 1
-    
+    assert deltawiderstand(1, 0, 1) == 0
 
 def test_widerstand():
     """Test Widerstand bei angegebener Temperatur"""
-    assert widerstand(1, 1, 1) == 1
+    assert widerstand(1, 1) == 2
 
 
 def test_absspannungsabfall():
     """Test Spannungsabfall"""
-    assert absspannungsabfall(1, 1, 1) == 1
+    assert absspannungsabfall(1, 1) == 1
 
 
 def test_relspannungsabfall():
     """Test relativen Spannungsabfall"""
-    assert relspannungsabfall(1, 1, 1) == 1
+    assert relspannungsabfall(1, 1) == 0
