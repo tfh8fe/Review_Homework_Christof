@@ -1,8 +1,8 @@
-# Widerstandsberechnung mit Leiter Temperatur und Bauform
+# Resistance calculation with conductor temperature and design
 [![license](https://img.shields.io/badge/license-Apache%202.0-black)](https://github.com/christofelician/coolio/blob/main/LICENSE)
 ##
-main.py ist das Hauptprogramm indem die Widerstände berechnert werden. Von Christoph Lemberger 1631759
+main.py is the main program where resistances are calculated. By Christoph Lemberger 1631759
 
-Es wird berechnet:
+The following calculations are performed:
 
-Widerstand bei Raumtemperatur, der Differenz Widerstand bei einer bestimmten Leitertemperatur zum Widerstand bei Raumtemperatur, der Gesamtwiderstand, der Resultierende Spannungsabfall am Widerstand der Leitung, die relative Spannungsänderung
+Resistance at room temperature, Difference in resistance at a specific conductor temperature compared to the resistance at room temperature, Total resistance, Resulting voltage drop across the conductor resistance, Relative voltage change
