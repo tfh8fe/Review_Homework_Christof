@@ -5,7 +5,7 @@ def calc_crf(int_rate, lifetime):
 
 
 def calc_self_consumption(installed_capacity, full_load_hours):
-    """Calculation of self-consumption per yeaar with the assumption that 50% of the energy generated is consumed"""
+    """Calculation of self-consumptio the energy generated is consumed"""
     self_consumption = installed_capacity * full_load_hours * 0.5
     return self_consumption
 
@@ -25,8 +25,7 @@ def calc_annual_revenues(self_consumption, feedin_tarif):
 def calc_npv(investment_costs, installed_capacity, crf, annual_costs, annual_revenues):
     """Calculation of net present value over the lifetime"""
     npv = [0]
-    npv[0] = -(investment_costs*installed_capacity)
+    npv[0] = (-1) * (investment_costs*installed_capacity)
     for i in range(1, 20):
         npv.append(npv[i - 1] + 1 / crf * (annual_revenues - annual_costs))
     return npv
-
