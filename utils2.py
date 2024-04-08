@@ -1,18 +1,25 @@
+"""
+This module defines the functions required for calculating net present value.
+The parameters are defined in main.py
+"""
+
+
 def calc_crf(int_rate, lifetime):
     """Calculation of capital ercovery factor"""
-    crf = ((1 + int_rate) * lifetime * int_rate) / ((1 + int_rate) * (lifetime - 1))
+    crf = ((1+int_rate)**lifetime*int_rate) / ((1+int_rate)**lifetime-1)
     return crf
 
 
 def calc_self_consumption(installed_capacity, full_load_hours):
-    """Calculation of self-consumptio the energy generated is consumed"""
+    """Calculation of self-consumption per yeaar with the assumption that
+    50% of the energy generated is consumed"""
     self_consumption = installed_capacity * full_load_hours * 0.5
     return self_consumption
 
 
 def calc_annual_costs(annual_load, self_consumption, supply_tarif):
     """Calculation of annual electricity costs"""
-    annual_costs = (annual_load - self_consumption) * supply_tarif
+    annual_costs = (annual_load-self_consumption) * supply_tarif
     return annual_costs
 
 
