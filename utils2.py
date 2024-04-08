@@ -12,7 +12,7 @@ def calc_self_consumption(installed_capacity, full_load_hours):
 
 def calc_annual_costs(annual_load, self_consumption, supply_tarif):
     """Calculation of annual electricity costs"""
-    annual_costs = (annual_load-self_consumption) * supply_tarif
+    annual_costs = (annual_load - self_consumption) * supply_tarif
     return annual_costs
 
 
