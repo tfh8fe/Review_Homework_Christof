@@ -4,6 +4,12 @@ The parameters are defined in main.py
 """
 
 
+def calc_crf(int_rate, lifetime):
+    """Calculation of capital ercovery factor"""
+    crf = ((1+int_rate)**lifetime*int_rate) / ((1+int_rate)**lifetime-1)
+    return crf
+
+
 def calc_self_consumption(installed_capacity, full_load_hours):
     """Calculation of self-consumption per yeaar with the assumption that
     50% of the energy generated is consumed"""
