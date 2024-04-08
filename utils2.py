@@ -1,3 +1,9 @@
+"""
+This module defines the functions required for calculating net present value.
+The parameters are defined in main.py
+"""
+
+
 def calc_self_consumption(installed_capacity, full_load_hours):
     """Calculation of self-consumption per yeaar with the assumption that
     50% of the energy generated is consumed"""
