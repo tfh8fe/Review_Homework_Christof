@@ -17,7 +17,7 @@ def widerstand(wider20, deltar):
 
 def absspannungsabfall(widerstan, strom):
     """Wabsoluter Spannungsabfall am Widerstand"""
-    return widerstan / strom
+    return widerstan * strom * 10
 
 
 def relspannungsabfall(spannung, abspannungsabfall):
