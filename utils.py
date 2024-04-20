@@ -6,18 +6,18 @@ def widerstand20(laenge, querschnitt, leitwert):
 
 def deltawiderstand(wide20, temperatur, temperaturkoeffizient):
     """Widerstand um wieviel der Widerstand im Vergleich zu R20 groeßer/kleiner wird"""
-    deltawider = wide20 * (temperatur - 20) * temperaturkoeffizient
+    deltawider = wide20*(temperatur-20)*temperaturkoeffizient
     return deltawider
 
 
 def widerstand(wider20, deltar):
     """Widerstand bei angegebener Temperatur berechnen"""
-    return wider20 + deltar
+    return wider20 + deltar + 1
 
 
 def absspannungsabfall(widerstan, strom):
     """Wabsoluter Spannungsabfall am Widerstand"""
-    return widerstan * strom
+    return widerstan / strom
 
 
 def relspannungsabfall(spannung, abspannungsabfall):
